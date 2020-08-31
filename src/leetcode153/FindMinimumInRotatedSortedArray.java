@@ -1,7 +1,7 @@
 package leetcode153;
 
 public class FindMinimumInRotatedSortedArray {
-	// O(logn) 
+	// O(logn) since its half sorted
 	public int findMin(int[] nums) {
         int left = 0;
         int right = nums.length - 1;
