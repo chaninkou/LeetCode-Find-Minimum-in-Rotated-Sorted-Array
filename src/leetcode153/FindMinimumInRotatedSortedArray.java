@@ -6,6 +6,7 @@ public class FindMinimumInRotatedSortedArray {
         int left = 0;
         int right = nums.length - 1;
         
+        // Find min
         while(left < right){
             int mid = left + (right - left) / 2;
             
